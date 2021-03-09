@@ -1,6 +1,6 @@
-import 'package:flutter_bloc_utils/actions/actions.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_bloc_utils/actions/actions.dart';
 
 /// {@template action}
 /// [BlocAction] exposes initState, dispose and didChangeDependencies to perform actions on a bloc.
@@ -34,28 +34,28 @@ class BlocAction<C extends Cubit<S>, S> extends StatefulWidget {
   final Widget child;
 
   /// Called when [initState] is called to perform actions on the bloc
-  final OnBlocAction<C, S> onInitState;
+  final BlocActionCallback<C, S>? onInitState;
 
   /// Called when [dispose] is called to perform actions on the bloc
-  final OnBlocAction<C, S> onDispose;
+  final BlocActionCallback<C, S>? onDispose;
 
   /// Called when [didChangeDependencies] is called to perform actions on the bloc
-  final OnBlocAction<C, S> onChangeDependencies;
+  final BlocActionCallback<C, S>? onChangeDependencies;
 
   const BlocAction({
-    Key key,
-    @required this.child,
+    Key? key,
+    required this.child,
     this.onInitState,
     this.onDispose,
     this.onChangeDependencies,
   }) : super(key: key);
 
   @override
-  _BlocActionState<C, S> createState() => _BlocActionState<C, S>();
+  BlocActionState<C, S> createState() => BlocActionState<C, S>();
 }
 
-class _BlocActionState<C extends Cubit<S>, S> extends State<BlocAction<C, S>> {
-  C _bloc;
+class BlocActionState<C extends Cubit<S>, S> extends State<BlocAction<C, S>> {
+  late C _bloc;
 
   @override
   void initState() {

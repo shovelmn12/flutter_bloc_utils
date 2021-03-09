@@ -34,11 +34,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 /// ```
 /// {@endtemplate}
 class BlocSelector<C extends Cubit<S>, S> {
-  final BuildContext _context;
+  final BuildContext context;
 
-  const BlocSelector(this._context);
+  const BlocSelector(this.context);
 
   /// Selects a value from current state using selector, if no selector provided will return `state`.
-  M select<M>([M Function(S) selector]) =>
-      _context.select((C cubit) => selector?.call(cubit.state) ?? cubit.state);
+  M select<M>(M Function(S state) selector) =>
+      context.select((C cubit) => selector.call(cubit.state));
 }
