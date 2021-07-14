@@ -12,7 +12,7 @@
         <entry key="bloc">
           <value>
             <list>
-              <option value="$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.0.0-nullsafety.3/lib" />
+              <option value="$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.0.0/lib" />
             </list>
           </value>
         </entry>
@@ -68,7 +68,7 @@
         <entry key="flutter_bloc">
           <value>
             <list>
-              <option value="$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-7.0.0-nullsafety.4/lib" />
+              <option value="$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-7.0.0/lib" />
             </list>
           </value>
         </entry>
@@ -181,14 +181,14 @@
     </properties>
     <CLASSES>
       <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0/lib" />
-      <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.0.0-nullsafety.3/lib" />
+      <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.0.0/lib" />
       <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/lib" />
       <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0/lib" />
       <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0/lib" />
       <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0/lib" />
       <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0/lib" />
       <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/lib" />
-      <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-7.0.0-nullsafety.4/lib" />
+      <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-7.0.0/lib" />
       <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10/lib" />
       <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0/lib" />
       <root url="file://$USER_HOME$/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nested-1.0.0/lib" />

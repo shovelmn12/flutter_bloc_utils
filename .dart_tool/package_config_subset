@@ -4,8 +4,8 @@ file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dart
 file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0/lib/
 bloc
 2.12
-file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.0.0-nullsafety.3/
-file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.0.0-nullsafety.3/lib/
+file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.0.0/
+file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.0.0/lib/
 boolean_selector
 2.12
 file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/
@@ -32,8 +32,8 @@ file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dart
 file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/lib/
 flutter_bloc
 2.12
-file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-7.0.0-nullsafety.4/
-file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-7.0.0-nullsafety.4/lib/
+file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-7.0.0/
+file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-7.0.0/lib/
 matcher
 2.12
 file:///Users/shovelmn/Applications/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10/
@@ -99,7 +99,7 @@ flutter_test
 file:///Users/shovelmn/Applications/Developer/flutter/packages/flutter_test/
 file:///Users/shovelmn/Applications/Developer/flutter/packages/flutter_test/lib/
 flutter_bloc_utils
-2.7
+2.12
 file:///Users/shovelmn/Projects/flutter_bloc_utils/
 file:///Users/shovelmn/Projects/flutter_bloc_utils/lib/
 2
